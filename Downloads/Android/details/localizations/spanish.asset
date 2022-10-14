@@ -1,0 +1,724 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae28374fa1d28e84d89ef31a27fdba89, type: 3}
+  m_Name: spanish
+  m_EditorClassIdentifier: 
+  tasksData:
+  - name: Animals
+    folderName: Animals
+    localizedName: Animals
+    gameType: 2
+    useMixedTypes: 1
+    sortingIndex: 1
+    forceNoImage: 0
+    orderNumber: 1
+    Levels:
+    - index: 1
+      gameType: 2
+      rightAnswer: giraffe
+      noImage: 0
+      cost: 40
+      reward: 40
+      imageText: 
+      wrongAnswers: []
+      imageDescription: The highest land animal on the planet.
+      number: 2
+    - index: 2
+      gameType: 2
+      rightAnswer: lion
+      noImage: 0
+      cost: 40
+      reward: 40
+      imageText: 
+      wrongAnswers: []
+      imageDescription: Animals king
+      number: 1
+    - index: 3
+      gameType: 2
+      rightAnswer: hippo
+      noImage: 0
+      cost: 60
+      reward: 60
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 3
+    - index: 4
+      gameType: 2
+      rightAnswer: panda
+      noImage: 0
+      cost: 40
+      reward: 40
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 4
+    - index: 5
+      gameType: 2
+      rightAnswer: sloth
+      noImage: 0
+      cost: 70
+      reward: 70
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 5
+    - index: 6
+      gameType: 2
+      rightAnswer: dog
+      noImage: 0
+      cost: 50
+      reward: 50
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 6
+    - index: 7
+      gameType: 2
+      rightAnswer: eagle
+      noImage: 0
+      cost: 70
+      reward: 70
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 7
+    - index: 8
+      gameType: 2
+      rightAnswer: mouse
+      noImage: 0
+      cost: 60
+      reward: 60
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 8
+    - index: 9
+      gameType: 2
+      rightAnswer: bear
+      noImage: 0
+      cost: 50
+      reward: 50
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 9
+    - index: 10
+      gameType: 2
+      rightAnswer: hare
+      noImage: 0
+      cost: 40
+      reward: 40
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 10
+  - name: Famous
+    folderName: Famous
+    localizedName: Famous
+    gameType: 1
+    useMixedTypes: 0
+    sortingIndex: 5
+    forceNoImage: 0
+    orderNumber: 5
+    Levels:
+    - index: 1
+      gameType: 1
+      rightAnswer: Lincoln
+      noImage: 0
+      cost: 30
+      reward: 30
+      imageText: 
+      wrongAnswers:
+      - Roosevelt
+      - Eminem
+      - Mark Twain
+      imageDescription: American lawyer and statesman who served as the 16th president
+        of the United States
+      number: 1
+    - index: 2
+      gameType: 1
+      rightAnswer: presley
+      noImage: 0
+      cost: 50
+      reward: 50
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 2
+    - index: 3
+      gameType: 1
+      rightAnswer: einstein
+      noImage: 0
+      cost: 50
+      reward: 50
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 3
+    - index: 4
+      gameType: 1
+      rightAnswer: cobain
+      noImage: 0
+      cost: 60
+      reward: 60
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 4
+    - index: 5
+      gameType: 1
+      rightAnswer: Taylor
+      noImage: 0
+      cost: 70
+      reward: 70
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 5
+  - name: Countries
+    folderName: Countries
+    localizedName: Countries
+    gameType: 3
+    useMixedTypes: 0
+    sortingIndex: 7
+    forceNoImage: 0
+    orderNumber: 7
+    Levels:
+    - index: 1
+      gameType: 3
+      rightAnswer: giza
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 1
+    - index: 2
+      gameType: 3
+      rightAnswer: sydney
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 2
+    - index: 3
+      gameType: 3
+      rightAnswer: pisa
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers:
+      - paris
+      - moscow
+      - munchen
+      imageDescription: 
+      number: 3
+    - index: 4
+      gameType: 3
+      rightAnswer: paris
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 4
+    - index: 5
+      gameType: 3
+      rightAnswer: newyork
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 5
+    - index: 6
+      gameType: 3
+      rightAnswer: agra
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 6
+    - index: 7
+      gameType: 3
+      rightAnswer: moscow
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 7
+  - name: Puzzle
+    folderName: Puzzle
+    localizedName: Puzzle
+    gameType: 0
+    useMixedTypes: 1
+    sortingIndex: 6
+    forceNoImage: 0
+    orderNumber: 6
+    Levels:
+    - index: 1
+      gameType: 0
+      rightAnswer: evolution
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 1
+    - index: 8
+      gameType: 0
+      rightAnswer: televisor
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 2
+    - index: 9
+      gameType: 0
+      rightAnswer: mosquito
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 3
+    - index: 4
+      gameType: 0
+      rightAnswer: chocolate
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 4
+    - index: 5
+      gameType: 0
+      rightAnswer: autumn
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 5
+    - index: 6
+      gameType: 0
+      rightAnswer: lamp
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 6
+    - index: 7
+      gameType: 0
+      rightAnswer: backpack
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 7
+    - index: 3
+      gameType: 3
+      rightAnswer: giza
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers:
+      - iza
+      - gza
+      - gzia
+      imageDescription: 
+      number: 0
+    - index: 2
+      gameType: 2
+      rightAnswer: lincoln
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
+  - name: Sport
+    folderName: Sport
+    localizedName: Sport
+    gameType: 0
+    useMixedTypes: 0
+    sortingIndex: 4
+    forceNoImage: 0
+    orderNumber: 4
+    Levels:
+    - index: 1
+      gameType: 4
+      rightAnswer: 2 Millones
+      noImage: 1
+      cost: 0
+      reward: 0
+      imageText: Cuantos Zenis le pide numero 18 a Mr Satan para dejarse vencer en
+        el torneo mundial de artes marciales?
+      wrongAnswers:
+      - Kale
+      - Kaulifla
+      - Kefla
+      imageDescription: 
+      number: 1
+    - index: 2
+      gameType: 6
+      rightAnswer: Golf
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: What kind of sport also uses a stick
+      wrongAnswers: []
+      imageDescription: 
+      number: 2
+    - index: 3
+      gameType: 1
+      rightAnswer: Japan
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: The host of the Summer Olympic Games in 2020
+      wrongAnswers: []
+      imageDescription: 
+      number: 3
+    - index: 4
+      gameType: 4
+      rightAnswer: Scotland
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: "\u0421urling originated in this country"
+      wrongAnswers: []
+      imageDescription: 
+      number: 4
+    - index: 5
+      gameType: 4
+      rightAnswer: cybersport
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: What are the computer games competitions
+      wrongAnswers: []
+      imageDescription: 
+      number: 5
+  - name: Erudition
+    folderName: Erudition
+    localizedName: Erudition
+    gameType: 0
+    useMixedTypes: 0
+    sortingIndex: 2
+    forceNoImage: 0
+    orderNumber: 2
+    Levels:
+    - index: 1
+      gameType: 5
+      rightAnswer: tail
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: Beaver accumulates fat in this part of the body
+      wrongAnswers:
+      - thighs
+      - stomach
+      - chest
+      imageDescription: 
+      number: 1
+    - index: 2
+      gameType: 5
+      rightAnswer: Mercury
+      noImage: 1
+      cost: 30
+      reward: 30
+      imageText: Planet closest to the Sun
+      wrongAnswers:
+      - Venus
+      - Mars
+      - Uranus
+      imageDescription: 
+      number: 2
+    - index: 3
+      gameType: 5
+      rightAnswer: dead sea
+      noImage: 0
+      cost: 40
+      reward: 40
+      imageText: What is the most salty sea
+      wrongAnswers:
+      - black sea
+      - North Sea
+      - Caribbean Sea
+      imageDescription: 
+      number: 3
+    - index: 4
+      gameType: 5
+      rightAnswer: Kilimanjaro
+      noImage: 0
+      cost: 60
+      reward: 60
+      imageText: The highest mountain in africa
+      wrongAnswers:
+      - Stanley
+      - Kenya
+      - Baker
+      imageDescription: 
+      number: 4
+    - index: 5
+      gameType: 5
+      rightAnswer: The Toll of the Sea
+      noImage: 0
+      cost: 70
+      reward: 70
+      imageText: The first color Hollywood film
+      wrongAnswers:
+      - The Stoker
+      - Where the North Begin
+      - Vanity Fair
+      imageDescription: 
+      number: 5
+    - index: 6
+      gameType: 0
+      rightAnswer: '?'
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
+  - name: Four Images
+    folderName: Four Images
+    localizedName: Four Images
+    gameType: 4
+    useMixedTypes: 0
+    sortingIndex: 3
+    forceNoImage: 0
+    orderNumber: 3
+    Levels:
+    - index: 1
+      gameType: 6
+      rightAnswer: wood
+      noImage: 0
+      cost: 0
+      reward: 0
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 1
+    - index: 2
+      gameType: 6
+      rightAnswer: circle
+      noImage: 0
+      cost: 30
+      reward: 30
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 2
+    - index: 3
+      gameType: 6
+      rightAnswer: fire
+      noImage: 0
+      cost: 40
+      reward: 40
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 3
+  gameItems:
+  - key: 0
+    value: Jugar
+  - key: 1
+    value: Acerca de
+  - key: 2
+    value: Salir
+  - key: 3
+    value: Atras
+  - key: 4
+    value: "\xA1Prep\xE1rate para resolver algunas trivias de im\xE1genes! \xBFTe
+      has quedado atascado? \xA1Usa las pistas! Gana monedas completando tareas o
+      viendo v\xEDdeos cortos. \xA1Divi\xE9rtete!"
+  - key: 5
+    value: bloqueado
+  - key: 6
+    value: Revelar una letra
+  - key: 7
+    value: Eliminar el exceso
+  - key: 8
+    value: Obtenga la respuesta
+  - key: 9
+    value: Obtener monedas
+  - key: 10
+    value: "Ver un v\xEDdeo"
+  - key: 65
+    value: Comprar por
+  - key: 11
+    value: Comprar
+  - key: 12
+    value: Continuar
+  - key: 13
+    value: Menu principal
+  - key: 14
+    value: Nivel completado!
+  - key: 15
+    value: "\xBFQu\xE9 te parece el juego hasta ahora? Por favor, danos tu opini\xF3n
+      valorando el juego en la playstore."
+  - key: 16
+    value: "\xA1Valorar!"
+  - key: 18
+    value: No Ahora
+  - key: 17
+    value: Nunca
+  - key: 19
+    value: "Consentimiento de recopilaci\xF3n de datos"
+  - key: 20
+    value: Anuncios personalizados
+  - key: 21
+    value: Permitir que las redes de publicidad utilicen los datos recogidos y muestren
+      anuncios personalizados
+  - key: 22
+    value: Si
+  - key: 23
+    value: No
+  - key: 24
+    value: "\xA1Parece que tienes un mejor progreso!"
+  - key: 25
+    value: "\xBFDesea cargarlo?"
+  - key: 26
+    value: "\xA1Hola! S\xF3lo para que sepas que utilizamos tus datos de juego y
+      de dispositivo con tu consentimiento para mejorar nuestro juego."
+  - key: 27
+    value: "\xBFQuiere que le presentemos publicidad relevante que se ajuste a sus
+      intereses?"
+  - key: 28
+    value: Confirmar
+  - key: 29
+    value: "M\xE1s informaci\xF3n"
+  - key: 30
+    value: "Eliminar una opci\xF3n"
+  - key: 31
+    value: Eliminar dos opciones
+  - key: 32
+    value: Posibilidad de equivocarse
+  - key: 33
+    value: "Por favor, ay\xFAdame a completar el nivel de la categor\xEDa \xAB{{category}}\xBB!"
+  - key: 34
+    value: Pide ayuda a un amigo
+  - key: 35
+    value: Pregunta a tus amigos
+  - key: 36
+    value: Apuesta
+  - key: 37
+    value: "\xBFTe quedaste atascado? Usa las pistas."
+  - key: 38
+    value: Pulse la letra para borrar. Deslice el para borrar el campo.
+  - key: 39
+    value: "Raspe la l\xE1mina para revelar la imagen."
+  - key: 40
+    value: "Pulse para que la imagen sea m\xE1s clara."
+  - key: 42
+    value: Pulse para empezar a apuntar. Pulsa una segunda vez para disparar.
+  - key: 44
+    value: "Pulse para obtener informaci\xF3n \xFAtil sobre la tarea."
+  - key: 45
+    value: "\xBFQu\xE9 tan dif\xEDcil es esta prueba? \xA1Haz una apuesta! Si respondes
+      incorrectamente, perder\xE1s la apuesta, de lo contrario la duplicar\xE1s"
+  - key: 46
+    value: "M\xE1s juegos"
+  - key: 47
+    value: Reintentar
+  - key: 49
+    value: Ajustes
+  - key: 50
+    value: GP Juegos
+  - key: 51
+    value: Privacidad
+  - key: 55
+    value: "Pol\xEDtica de privacidad"
+  - key: 52
+    value: Idioma
+  - key: 53
+    value: Sonido
+  - key: 54
+    value: Musica
+  - key: 56
+    value: "Configuraci\xF3n de los anuncios"
+  - key: 57
+    value: Publicidad
+  - key: 58
+    value: Mis datos
+  - key: 59
+    value: "Pol\xEDtica"
+  - key: 60
+    value: Guardar en la nube
+  - key: 61
+    value: No, gracias.
+  - key: 63
+    value: Recarga
+  - key: 64
+    value: No se puede continuar
+  - key: 66
+    value: Obtenga
+  - key: 67
+    value: monedas
+  - key: 71
+    value: bonus
+  - key: 68
+    value: "Seleccione una categor\xEDa"
+  - key: 69
+    value: "\xBFQuieres usar GooglePlayGames para guardar el progreso de tu juego
+      y mantenerlo siempre sincronizado?"
+  - key: 70
+    value: "Puedes responder incorrectamente y el juego continuar\xE1. Si respondes
+      correctamente, recuperar\xE1s las monedas gastadas"
+  - key: 62
+    value: 
+  subCategories:
+  - iconName: 
+    name: Abstract
+    localizedTitle: Abstract
+    subcategories:
+    - Erudition
+    - Four Images
+    - Puzzle
+    - Sport
+    sortingIndex: 1
+  - iconName: 
+    name: Object
+    localizedTitle: Object
+    subcategories:
+    - Animals
+    - Countries
+    - Famous
+    sortingIndex: 2
+  randomLetters: 790062006b007700740072006a00760075006300710069007a0078006c00
